@@ -1,0 +1,22 @@
+{
+  "name": "bat-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "combine-urls": "cd url-processing && node combine-urls.js",
+    "test-one-worker": "npx playwright test --workers 1",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "Sakthikannan Subramanian",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "@types/node": "^20.11.24"
+  },
+  "dependencies": {
+    "@applitools/eyes-playwright": "^1.25.0",
+    "jest-image-snapshot": "^6.4.0"
+  }
+}
