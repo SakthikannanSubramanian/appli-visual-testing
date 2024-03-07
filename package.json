@@ -6,7 +6,8 @@
   "scripts": {
     "combine-urls": "cd url-processing && node combine-urls.js",
     "test-one-worker": "npx playwright test --workers 1",
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "accessibility": "npx playwright test tests/accessibility/bat_accessibility.test.spec.js"
   },
   "keywords": [],
   "author": "Sakthikannan Subramanian",
@@ -17,6 +18,9 @@
   },
   "dependencies": {
     "@applitools/eyes-playwright": "^1.25.0",
+    "@axe-core/playwright": "^4.8.5",
+    "axe-playwright": "^2.0.1",
+    "csv-writer": "^1.6.0",
     "jest-image-snapshot": "^6.4.0"
   }
 }

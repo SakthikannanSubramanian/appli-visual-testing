@@ -1,7 +1,7 @@
 const { test } = require('@playwright/test');
 const { chromium } = require('playwright');
 import { BatchInfo, Configuration, EyesRunner, VisualGridRunner, BrowserType, DeviceName, ScreenOrientation, Eyes, Target, ClassicRunner } from '@applitools/eyes-playwright';
-import urlsToTest from '../url-processing/combined-urls-object';
+import urlsToTest from './url-processing/combined-urls-object.js';
 
 let Runner;
 let Batch;

@@ -1,0 +1,14 @@
+Run command "npm install"
+
+Accessibility: 
+
+1. Populate urls in test-urls.txt
+2. Trigger test with command "npm run accessibility"
+
+Visual Test: 
+
+1. Populate the base-urls.txt //Under Visual/url-processing
+2. Populate the stage-urls.txt //Under Visual/url-processing
+3. Run command "npm run combine-urls"
+4. Run command "export APPLITOOLS_API_KEY=<your_applitools_api_key>
+5. Run command "npm run test-one-worker" //for now coz comparing with base url
