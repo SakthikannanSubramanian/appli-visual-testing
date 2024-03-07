@@ -1,3 +1,8 @@
+Prerequisites: 
+
+Install node.js https://nodejs.org/en/download
+Check your version "node-v"
+
 Run command "npm install"
 
 Accessibility: 
